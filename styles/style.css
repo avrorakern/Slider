@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    background: #131313;
+}
+
+.main__block {
+    padding: 107px 134.55px 123.72px 134.45px;
+    display: flex;
+    gap: 50px;
+}
+
+.first__block {
+    width: 442px;
+    display: flex;
+    gap: 42px;
+    flex-direction: column;
+}
+
+.first__block_text {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+
+.first__block_property {
+    display: grid;
+    grid-template-columns: 161px 213px;
+    grid-template-rows: 73px 73px;
+    gap: 34px;
+}
+
+.first__block-image {
+    margin-top: 37.64px;
+    width: 206px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.left-btn,
+.right-btn {
+    flex-shrink: 0;
+}
+
+.dott {
+    flex-shrink: 0;
+    background: #FFF;
+    border-radius: 50px;
+    border: none;
+    width: 10px;
+    height: 10px;
+    opacity: 0.3;
+}
+
+.second__block {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+
+.second__block-captions {
+    display: flex;
+    justify-content: space-between;
+    gap: 60.5px;
+}
+
+.first__block_text-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 69.36px;
+}
+
+.first__block_text-caption {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0;
+    color: #E3B873;
+    font-family: "YesevaOne-Regular";
+    font-size: 27px;
+    line-height: 138.6%;
+    letter-spacing: -1.89px;
+    text-transform: uppercase;
+}
+
+.first__block_text-paragraph {
+    margin: 0;
+    color: #FFF;
+    font-family: "NunitoSans_10pt-Regular";
+    font-size: 14px;
+    line-height: 190.96%;
+}
+
+.first__block_property-caption {
+    margin: 0;
+    color: #E3B873;
+    font-family: "YesevaOne-Regular";
+    font-size: 18px;
+    line-height: 138.6%;
+    text-transform: uppercase;
+}
+
+.first__block_property-city,
+.first__block_property-area,
+.first__block_property-time,
+.first__block_property-cost {
+    margin: 0;
+    padding-top: 9px;
+    color: #FFF;
+    font-family: "NunitoSans_10pt-Regular";
+    font-size: 13px;
+    line-height: 163.68%;
+}
+
+.second__block-captions-caption {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.30);
+    font-family: "YesevaOne-Regular";
+    font-size: 14px;
+    line-height: 138.6%;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 6.68px;
+    text-decoration: underline;
+    text-underline-offset: 6.68px;
+}
+
+.second__block-img {
+    width: 679px;
+    height: 482px;
+}
